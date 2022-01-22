@@ -18,12 +18,13 @@ public class PlayerController : MonoBehaviour
 
     public float airMultiplier = 0.4f;
     public Image rageFill;
-
+    public bool addRage;
+    public bool minusRage;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        rageFill.fillAmount = 0;
     }
 
     // Update is called once per frame
@@ -39,6 +40,8 @@ public class PlayerController : MonoBehaviour
             Jump();
 
         }
+
+       
 
 
 
@@ -73,4 +76,23 @@ public class PlayerController : MonoBehaviour
         playerRb.AddForce(transform.up * jumpForce, ForceMode.Impulse);
         
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.tag == "Rage")
+        {
+            rageFill.fillAmount = rageFill.fillAmount + 0.1f;
+        }
+    }
+
+    //void Rage()
+    //{
+        
+
+    //    if (minusRage == true)
+    //    {
+    //        rageFill.fillAmount = rageFill.fillAmount - 0.05f;
+    //    }
+
+    //}
 }
