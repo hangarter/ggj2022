@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 1669417012406233334}
   - component: {fileID: 4611082050954695100}
   - component: {fileID: 1069711086513993000}
-  m_Layer: 0
+  - component: {fileID: 7363477427141447901}
+  m_Layer: 3
   m_Name: cup
-  m_TagString: Untagged
+  m_TagString: Rage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -81,3 +82,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7363477427141447901
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7610197799063894989}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.3, y: 0.3, z: 0.4}
+  m_Center: {x: 0.05, y: 0.15, z: 0}

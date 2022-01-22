@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 6302636864273688711}
   - component: {fileID: 9196448886325154253}
   - component: {fileID: 5658178820219450713}
-  m_Layer: 0
+  - component: {fileID: 1392110204349528390}
+  m_Layer: 3
   m_Name: tv
-  m_TagString: Untagged
+  m_TagString: Rage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -81,3 +82,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1392110204349528390
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3008784620097289148}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.2, y: 1, z: 0.3}
+  m_Center: {x: 0, y: 0.5, z: 0.05}

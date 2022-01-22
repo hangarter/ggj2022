@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 8957920856613102390}
   - component: {fileID: 6091051230444821116}
   - component: {fileID: 7323548931646668520}
-  m_Layer: 0
+  - component: {fileID: 3862236290502278536}
+  m_Layer: 3
   m_Name: 'arm chair '
-  m_TagString: Untagged
+  m_TagString: Rage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -81,3 +82,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3862236290502278536
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 209068771948802061}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5, y: 1.1, z: 1}
+  m_Center: {x: 0.35000002, y: 0.55, z: 0}

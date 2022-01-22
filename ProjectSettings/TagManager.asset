@@ -5,11 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - Rage
+  - CinemachineTarget
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Objects
   - Water
   - UI
   - 
