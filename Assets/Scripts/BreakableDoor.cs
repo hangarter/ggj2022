@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class BreakableDoor : MonoBehaviour
 {
+    public GameObject youWinText;
     public List<GameObject> doorPrefabs;
     public AudioClip crackingNoise;
     public AudioClip breakingNoise;
@@ -18,6 +19,7 @@ public class BreakableDoor : MonoBehaviour
         {
             PlayBreakDoorNoise();
             gameObject.SetActive(false);
+            youWinText.SetActive(true);
         }
         else
         {
