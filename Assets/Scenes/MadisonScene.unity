@@ -280,14 +280,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2868630362521992598, guid: 78e3a4f9d790b024eb2bda0dfea2be17, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8245050475941040570, guid: 78e3a4f9d790b024eb2bda0dfea2be17, type: 3}
-      propertyPath: breakingNoise
-      value: 
-      objectReference: {fileID: 8300000, guid: 20e361df14f5d77469003afc559b7ce7, type: 3}
     - target: {fileID: 8245050475941040571, guid: 78e3a4f9d790b024eb2bda0dfea2be17, type: 3}
       propertyPath: m_RootOrder
       value: 2

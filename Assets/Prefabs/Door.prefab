@@ -55,6 +55,7 @@ MonoBehaviour:
   - {fileID: 7397468978858548752}
   - {fileID: 2619636564873494724}
   crackingNoise: {fileID: 8300000, guid: 110bcb57f693f494cab43e9c72089f01, type: 3}
+  breakingNoise: {fileID: 8300000, guid: 20e361df14f5d77469003afc559b7ce7, type: 3}
 --- !u!65 &977013760
 BoxCollider:
   m_ObjectHideFlags: 0
