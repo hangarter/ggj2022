@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3104403851079685909}
   - component: {fileID: 270815789518925407}
   - component: {fileID: 3668071565283855051}
+  - component: {fileID: 4292154079664921807}
   m_Layer: 0
   m_Name: door 1
   m_TagString: Untagged
@@ -81,3 +82,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &4292154079664921807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6170812905557820462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26e9277c597e53f4888ed5628804622d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particleSystem: {fileID: 0}
+  health: 0
+  totalHealth: 100
+  damagePerHit: 30
+  breakNoise: {fileID: 8300000, guid: 14589127bfeb0244c8d95d6c6808b7fb, type: 3}

@@ -17,8 +17,6 @@ public class AnimatorController : MonoBehaviour
     void Update()
     {
         hit.SetBool("Hit", Mouse.current.leftButton.ReadValue()==1);
-
-        Debug.Log(Mouse.current.leftButton.ReadValue());
     }
 
 
