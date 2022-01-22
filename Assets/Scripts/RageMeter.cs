@@ -25,7 +25,7 @@ public class RageMeter : MonoBehaviour
         
         if (other.tag == "Rage")
         {
-            
+            //Debug.Log(other.gameObject.name);
             rageFill.fillAmount = rageFill.fillAmount + 0.04f;
         }
     }

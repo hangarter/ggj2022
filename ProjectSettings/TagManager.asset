@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Rage
   - CinemachineTarget
+  - Door
   layers:
   - Default
   - TransparentFX
