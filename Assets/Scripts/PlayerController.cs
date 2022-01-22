@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 
 
@@ -16,6 +17,7 @@ public class PlayerController : MonoBehaviour
     Vector3 moveDirection;
 
     public float airMultiplier = 0.4f;
+    public Image rageFill;
 
 
     // Start is called before the first frame update
@@ -58,7 +60,7 @@ public class PlayerController : MonoBehaviour
 
         if (isGrounded)
         {
-            playerRb.AddForce(moveDirection * speed , ForceMode.Acceleration);
+            playerRb.AddForce(moveDirection * speed , ForceMode.Acceleration);  
         }
         else if (!isGrounded)
         {
